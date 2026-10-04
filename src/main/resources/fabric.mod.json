@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1, "id": "toolkit", "version": "${version}", "name": "Toolkit",
+  "description": "Client-side module GUI (singleplayer / own server testing).",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.toolkit.ToolkitClient"] },
+  "depends": { "fabricloader": ">=0.19.3", "minecraft": "~26.2", "java": ">=25", "fabric-api": "*" }
+}
